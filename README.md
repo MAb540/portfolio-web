@@ -1,35 +1,84 @@
-# AstroZen - Personal Portfolio Website
+# Personal Portfolio Website
 
-AstroZen is a minimalist, accessible and responsive portfolio template for your personal portfolio website. It is built with Astro and TailwindCSS.
+A modern, responsive portfolio website built with [Astro](https://astro.build), TypeScript, and Tailwind CSS.
 
-![zen-og](https://github.com/user-attachments/assets/7a72aaae-6652-4cd0-becc-8e6a3c224993)
+## 🚀 Features
 
-> [!NOTE]
-> The information contained in this template, including names, images, and content, is entirely fictitious and is intended solely to give the design a realistic appearance. Any coincidence with real-life people, events, or situations is purely coincidental. It is recommended that you replace this information with your own information.
+- ⚡️ Lightning-fast performance with Astro
+- 💼 Professional portfolio showcase
+- 📱 Fully responsive design
+- 🎨 Modern and clean UI
+- 🌙 Custom components for projects, experience, and about sections
+- 🔥 TypeScript support
+- 🎯 SEO optimized
 
-## 🔥 Features
+## 🛠️ Tech Stack
 
-- [x] Minimalist design. clean and simple
-- [x] Mobile-first responsive layout
-- [x] SEO-friendly and accessible
-- [x] Easy to customize with a single configuration file
+- [Astro](https://astro.build) - Static Site Generator
+- [TypeScript](https://www.typescriptlang.org/) - Type safety
+- [Tailwind CSS](https://tailwindcss.com) - Styling
+- [Fontsource](https://fontsource.org/) - Web fonts
 
-## ✅ Lighthouse Score
+## 🏗️ Getting Started
 
-![performance](https://github.com/user-attachments/assets/4f95e2ca-03f9-4996-9e34-dcd179194c58)
+### Prerequisites
 
-## 🚀 Getting Started
+- Node.js (v18 or higher)
+- pnpm (recommended) or npm
 
-Clone this repository to your local machine using Git.
+### Installation
 
-```scheme
-git clone https://github.com/immois/astro-zen.git
-cd astro-zen
+1. Clone the repository
+```bash
+git clone https://github.com/MAb540/portfolio-web.git
+cd portfolio-web
 ```
 
-| Command        | Action                                       |
-| :------------- | :------------------------------------------- |
-| `pnpm install` | Installs dependencies                        |
-| `pnpm dev`     | Starts local dev server at `localhost:4321`  |
-| `pnpm build`   | Build your production site to `./dist/`      |
-| `pnpm preview` | Preview your build locally, before deploying |
+2. Install dependencies
+```bash
+pnpm install
+```
+
+3. Start the development server
+```bash
+pnpm dev
+```
+
+The site should now be running at `http://localhost:4321`
+
+### Building for Production
+
+To create a production build:
+
+```bash
+pnpm build
+```
+
+Preview the production build:
+```bash
+pnpm preview
+```
+
+## 📂 Project Structure
+
+```
+/
+├── public/          # Static assets
+├── src/
+│   ├── components/  # Astro components
+│   ├── config/      # Site configuration
+│   ├── icons/       # Icon components
+│   ├── layouts/     # Page layouts
+│   ├── pages/       # Page components
+│   ├── styles/      # Global styles
+│   └── types/       # TypeScript types
+└── package.json
+```
+
+## 🔑 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+Built with ❤️ by [MAb540](https://github.com/MAb540)
