@@ -14,7 +14,7 @@ export const SITE_CONFIG: SiteConfig = {
   ],
   socialLinks: [
     { text: "Github", href: "https://github.com/MAb540" },
-    { text: "LinkedIn", href: "https://www.linkedin.com/in/muhammad-abdullah-b1a315197/" },
+    // { text: "LinkedIn", href: "https://www.linkedin.com/in/muhammad-abdullah-b1a315197/" },
   ],
   socialImage: "/my_pic_small.jpg",
   canonicalURL: "https://astro-zen.vercel.app",
@@ -24,15 +24,24 @@ export const SITE_CONTENT: SiteContent = {
   hero: {
     name: "M Abdullah",
     specialty: "Software Engineer",
-    summary: `I am a Software Engineer with over 5 years of experience building scalable, high-performance web applications.`,
+    summary: `Software Engineer with over 6 years of experience building secure, high-performance and scalable solutions.`,
     email: "awana4872@gmail.com",
   },
   experience: [
     {
+      company: "Freelance Consultant",
+      position: "",
+      startDate: "Nov 2025",
+      endDate: "Present",
+      summary: [
+        "",
+      ],
+    },
+    {
       company: "Techwards",
       position: "Sr Software Engineer",
       startDate: "Mar 2024",
-      endDate: "Present",
+      endDate: "Oct 2025",
       summary: [
         "Implemented Stripe Direct Debit integration for a U.S.-based car leasing platform, streamlining payment processing and significantly enhancing the user experience. Additionally, set up Grafana, Loki, and Prometheus to enable real-time monitoring, performance metrics, and proactive alerting for system health.",
         "Designed and developed a custom ETL pipeline to aggregate customer reviews from multiple sources. Leveraged LLMs (Large Language Models) to classify reviews based on predefined business factors and compute sentiment scores, delivering actionable insights to stakeholders.",
@@ -63,30 +72,30 @@ export const SITE_CONTENT: SiteContent = {
   ],
   projects: [
     {
-      name: "Story Sharing App",
-      summary: "A story sharing app that allows users to create and share their stories.",
-      linkPreview: "/",
-      linkSource: "https://github.com/MAb540/storyApp",
-      image: "/story_sharing.png",
+      name: "Qoop AI",
+      summary: "A Landing lifecycle management platform for Lending Firms.",
+      linkPreview: "https://qoop.admin.qoop.ai/signin",
+      linkSource: "https://qoop.admin.qoop.ai/signin",
+      image: "/qoop-ai.png",
     },
     {
-      name: "Restaurant App",
-      summary: "An application for managing restaurant operations, orders, and payments.",
-      linkPreview: "/",
-      linkSource: "https://github.com/MAb540/ECommerceFrontEnd",
-      image: "/restaurant_img.png",
+      name: "Car Rental/Subscription Platform",
+      summary: "A Car Rental Subscription management platform.",
+      linkPreview: "https://administrador.onecarnow.com/",
+      linkSource: "https://administrador.onecarnow.com/",
+      image: "/onc.png",
     },
     {
-      name: "Ecommerce Platform",
-      summary: "An e-commerce platform for buying and selling products.",
-      linkPreview: "/",
-      linkSource: "https://github.com/MAb540/ecommerce-backend",
-      image: "/ecommerce_img.png",
+      name: "AI Market Intelligence & Benchmarking",
+      summary: "A Product ranking platfom based on real user reviews from Trustpilot, G2, Capterra.",
+      linkPreview: "#",
+      linkSource: "#",
+      image: "/ai-ranking-gartner.png",
     },
   ],
   about: {
     description: `
-      Hi, I am a Software Engineer with over 5 years of experience building scalable, high-performance web applications.
+      Hi, I am a Software Engineer with over 6 years of experience building scalable, high-performance web applications.
       I specialize in backend and full-stack development, creating robust systems and seamless user experiences.
 My backend expertise includes Node.js, Express.js, Python, Django, and databases such as MongoDB, PostgreSQL, MySQL, and Redis. I’m experienced in infrastructure and deployment using AWS services, NGINX, and other DevOps tools. On the frontend, I work extensively with React, Next.js, Redux, and React Query, building maintainable and performant user interfaces.
 I enjoy working across the stack, solving complex problems, and delivering end-to-end features in dynamic, fast-paced environments. I'm always exploring new technologies and best practices to improve product quality and development efficiency.
